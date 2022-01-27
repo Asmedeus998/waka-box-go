@@ -47,7 +47,7 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	filename := "📊 每周工作报告"
+	filename := "📊 Weekly development breakdown"
 	if updateGist {
 
 		gist, err := box.GetGist(ctx, gistID)
